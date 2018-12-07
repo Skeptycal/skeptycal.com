@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/node,macos,windows,dreamweaver,visualstudiocode
 
+sftp.json
+.vscode/*
+
 ### Dreamweaver ###
 # DW Dreamweaver added files
 _notes
