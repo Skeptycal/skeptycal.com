@@ -1,12 +1,12 @@
 /* Stylesheet: index.css --- main for www.skeptycal.com */
 
-:root {
 
-	/* Color Scheme */
-	--color-font-main: rgb(83, 44, 44);
-	--color-background-main: transparent;
-	--color-shadow-main: #a8a8a8;
-	--color-social: white;
+/* Color Scheme */
+:root {
+    --color-background-main: transparent;
+    --color-font-main: #96ff83;
+    --color-border-glow: #000000;
+    --color-social: #fff;
 }
 
 html,
@@ -16,31 +16,30 @@ body {
 	font-family: 'Muli', sans-serif;
 	font-size: 100%;
 	background: #222;
+
+	// Background color transition
+    transition: background 0.2s ease-in-out;
 }
 
 h1 {
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-bottom: 10px;
-	font-size: 2.5em !important;
-	letter-spacing: +.1rem;
-	text-align: center;
-	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-	color: var(--color-font-main);
-}
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    font-size: 2.5em !important;
+    letter-spacing: +.1rem;
+    text-align: center;
+    text-shadow: 0px 0px 20px var(--color-border-glow);
+    color: var(--color-font-main);
+}}
 
 h2 {
-	margin: 10px;
-	font-size: 1.6em !important;
-	font-weight: 200;
-	letter-spacing: -.04rem;
-	text-align: center;
-	text-shadow: 0px 0px 10px white;
-	color: var(--color-font-main);
+    margin: 10px;
+    font-size: 1.6em !important;
+    font-weight: 200;
+    letter-spacing: -.04rem;
+    text-align: center;
+    text-shadow: 0px 0px 8px var(--color-border-glow);
+    color: var(--color-font-main);
 }
 
 .main {
