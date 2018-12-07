@@ -6,7 +6,7 @@
 	--color-background-main: transparent;
 	--color-font-main: #96ff83;
 	--color-border-glow: #000000;
-	--color-social: #fff;
+	--color-social: #ffffdd;
 }
 
 html,
@@ -28,8 +28,8 @@ h1 {
 	font-size: 2.5em !important;
 	letter-spacing: +.2rem;
 	text-align: center;
-	text-shadow: 0px 0px 20px var(--color-border-glow);
-	color: var(--color-font-main);
+	text-shadow: 0px 0px 20px var(--color-border-glow, black);
+	color: var(--color-font-main, white);
 }
 
 h2 {
@@ -38,8 +38,8 @@ h2 {
 	font-weight: 200;
 	letter-spacing: -.04rem;
 	text-align: center;
-	text-shadow: 0px 0px 8px var(--color-border-glow);
-	color: #96ff83;
+	text-shadow: 0px 0px 8px var(--color-border-glow, black);
+	color: var(--color-font-main, white);
 }
 
 .main {
