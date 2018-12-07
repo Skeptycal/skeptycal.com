@@ -9,6 +9,7 @@
 	--color-social: #ffffdd;
 }
 
+
 html,
 body {
 	margin: 0;
@@ -52,8 +53,8 @@ h2 {
 
 .galaxy-wrapper {
 	position: relative;
-	background-image: url("https://www.nasa.gov/sites/default/files/images/672309main_M107_full.jpg");
-	/* background-image: url("/images/629319main_PIA13959_full.jpg"); */
+	/* background-image: url("https://www.nasa.gov/sites/default/files/images/672309main_M107_full.jpg"); */
+	background-image: url("/images/629319main_PIA13959_full.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
