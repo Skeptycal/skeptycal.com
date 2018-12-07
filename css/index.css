@@ -17,6 +17,7 @@ body {
 	font-family: 'Muli', sans-serif;
 	font-size: 100%;
 	background: #222;
+	-webkit-font-smoothing: antialiased;
 
 	/* Background color transition					*/
 	/* transition: background 0.2s ease-in-out;		*/
