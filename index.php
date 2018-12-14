@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <base href="http://www.skeptycal.com/" target="_top">
+    <!-- <base href="http://www.skeptycal.com/" target="_top"> -->
     <title>Michael Treanor</title>
 
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Muli:200,900">
@@ -16,10 +16,10 @@
     </script>
     <style type="text/css">
         .LI-profile-badge {
-            border-radius: 5%;
+            border-radius: 25%;
             position: absolute;
-            left: 5%;
-            bottom: 5%;
+            left: 3%;
+            bottom: 3%;
         }
     </style>
 
@@ -49,27 +49,7 @@
             <h2>Development Environment</h2>
         </section>
         <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="skeptycal"><a class="LI-simple-link" href='https://www.linkedin.com/in/skeptycal?trk=profile-badge'>Michael Treanor</a></div>
-        <section class="footer">
-            <div>
-                <a href="http://www.twitter.com/skeptycal">
-                    <img src="/images/twitter.jpg" height="50" alt="Twitter"></a>
-                &nbsp;&nbsp;
-                <a href="http://www.facebook.com/skeptycal">
-                    <img src="/images/facebook.jpg" height="50" alt="Facebook"></a>
-                &nbsp;&nbsp;
-                <a href="https://www.instagram.com/skeptycal/">
-                    <img src="/images/instagram.jpg" height="50" alt="Instagram" /></a>
-                &nbsp;&nbsp;
-                <a href="https://www.flickr.com/photos/skeptycal/">
-                    <img src="/images/flickr-logo-png-2.png" height="50" alt="Flickr" /></a>
-                &nbsp;&nbsp;
-                <a href="https://www.linkedin.com/in/skeptycal/">
-                    <img src="/images/In-2C-54px-R.png" height="50" alt="LinkedIN" /></a>
-                &nbsp;&nbsp;
-                <a href="https://www.github.com/Skeptycal">
-                    <img src="/images/GitHub-Mark-120px-plus.png" height="50" alt="Github" /></a>
-            </div>
-        </section>
+        <?php include '/src/footer_social.php' ?>
     </section>
 </body>
 
