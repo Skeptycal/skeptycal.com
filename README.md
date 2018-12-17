@@ -18,4 +18,4 @@ Acknowledgments: The pages herein are highly influenced by other members of the 
 - Viewport units: [Web Design Weekly](https://web-design-weekly.com/2014/11/18/viewport-units-vw-vh-vmin-vmax/)
 - Flexbox: [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-My current Markdown tool is Typora and I'm liking it.
+My current Markdown tool is VSCode and I'm liking it.
