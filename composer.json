@@ -1,0 +1,16 @@
+{
+    "name": "skeptycal/skeptycal.com",
+    "description": "Basic hand-coded portfolio page (no framework)",
+    "type": "project",
+    "require": {
+        "plotly/plotly.js": "^1.43",
+        "michelf/php-markdown": "^1.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "skeptycal",
+            "email": "skeptycal@gmail.com"
+        }
+    ]
+}

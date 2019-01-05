@@ -7,6 +7,7 @@
 ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="p:domain_verify" content="7477b2a3c6b14b5096c72826c74650fd"/>
 <!-- <base href="https://www.skeptycal.com/" target="_top"> -->
 <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Muli:200,900">
 <link rel="stylesheet" href="/css/normalize-8-0.css">
