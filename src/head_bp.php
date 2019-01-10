@@ -30,8 +30,7 @@
 <meta name="p:domain_verify" content="7477b2a3c6b14b5096c72826c74650fd" />
 <meta name="p:domain_verify" content="3e117c74ae0a44e0c334ccc9dfa25b65" />
 <!-- fetch likely portfolio pages -->
-<link rel="dns-prefetch" 
-    href="/">
+<link rel="dns-prefetch" href="/">
 
 <!-- Fira Code : beautiful `code` font -->
 <link rel="stylesheet prefetch"
