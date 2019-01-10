@@ -20,11 +20,9 @@
  */
 ?>
 
-<div class="LI-profile-badge" data-version="v1" data-size="medium"
-    data-locale="en_US" data-type="vertical" data-theme="dark"
+<div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark"
     data-vanity="skeptycal">
-    <a class="LI-simple-link"
-    href='https://www.linkedin.com/in/skeptycal?trk=profile-badge'>
+    <a class="LI-simple-link" href='https://www.linkedin.com/in/skeptycal?trk=profile-badge'>
         Michael Treanor
     </a>
 </div>

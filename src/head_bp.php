@@ -22,6 +22,9 @@
  * @version   GIT: 1.1.0
  * @link      http://www.skeptycal.com/index.php
  * PHP 7.3.0 (cli) (built: Dec  7 2018 11:00:11)
+ *
+ * @tags
+ * @phpcs:disable Generid.Files.LineLength.LineLimit = "120"
  */
 ?>
 
@@ -62,11 +65,16 @@
 <link async defer rel="stylesheet prefetch" 
     href="https://fonts.googleapis.com/css?family=Muli:200,900">
 
-<link async defer rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
-<link rel="stylesheet" 
-    href="/css/index.css" />
-<script async defer type="text/javascript"
-    src="https://platform.linkedin.com/badges/js/profile.js" />
+<?php
+    // normalize replaced with https://github.com/sindresorhus/modern-normalize
+    // "All credit should go to normalize.css. I just removed some cruft and added some improvements. If you have questions about the source, check out the original source <https://github.com/necolas/normalize.css/blame/master/normalize.css> and this <https://github.com/necolas/normalize.css#extended-details-and-known-issues> for details."
+    //<link async defer rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+?>
+
+    <link async defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.css" />    
+
+<link rel="stylesheet" href="/css/index.css" />
+<script async defer type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" />
 </script>
 <script async defer type="text/javascript" src="/js/jquery-3-2-1.min.js"></script>
 
