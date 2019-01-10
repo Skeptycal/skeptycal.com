@@ -12,5 +12,8 @@
             "name": "skeptycal",
             "email": "skeptycal@gmail.com"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
 }

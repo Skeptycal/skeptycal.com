@@ -29,11 +29,26 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="p:domain_verify" content="7477b2a3c6b14b5096c72826c74650fd" />
 <meta name="p:domain_verify" content="3e117c74ae0a44e0c334ccc9dfa25b65" />
-<!-- <base href="https://www.skeptycal.com/" target="_top"> -->
+<!-- fetch likely portfolio pages -->
+<link rel="dns-prefetch" 
+    href="/">
+
+<!-- Fira Code : beautiful `code` font -->
+<link rel="stylesheet prefetch"
+    href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">
+
+<!-- Muli : elegant minimalist font -->
 <link rel="stylesheet prefetch" 
     href="https://fonts.googleapis.com/css?family=Muli:200,900">
-<link rel="stylesheet" 
-    href="/css/normalize-8-0.css">
+
+<!-- Normalize.css
+    A modern, HTML5-ready alternative to CSS resets
+        Normalize.css makes browsers render all elements more consistently 
+        and in line with modern standards. It precisely targets only the 
+        styles that need normalizing.
+
+        Local: <link rel="stylesheet" href="/css/normalize-8-0.css">
+-->
 <link rel="stylesheet" 
     href="/css/index.css">
 <script type="text/javascript"

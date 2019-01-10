@@ -1,5 +1,6 @@
 
-# Created by https://www.gitignore.io/api/node,macos,windows,dreamweaver,visualstudiocode
+# Created by https://www.gitignore.io/api/
+# setup for node, macos, windows, dreamweaver, visualstudiocode
 
 sftp.json
 .vscode/*
@@ -151,4 +152,3 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/node,macos,windows,dreamweaver,visualstudiocode
-/vendor/
