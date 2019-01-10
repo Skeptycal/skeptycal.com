@@ -14,34 +14,28 @@
  * LICENSE: MIT
  *
  * @category  Creative_Portfolio
- * @package   Index
+ * @package   Index.php
  * @author    Michael Treanor  <skeptycal@gmail.com>
  * @copyright 2018 © Michael Treanor
  * @license   MIT <https://opensource.org/licenses/MIT>
  * @version   GIT: 1.1.0
  * @link      http://www.skeptycal.com/index.php
+ * PHP 7.3.0 (cli) (built: Dec  7 2018 11:00:11)
  */
 
  // Grab requests as needed ... 
  // use Zend\Http\Request;
+
+// Set title variable if desired. (default is in header)
+// $title = "";
+ 
+// Add standard header
+require_once 'src/head_bp.php';
 ?>
-
-<!DOCTYPE html>
-
-<html lang="en-US">
-
-<head>
-    <?php 
-        // Add standard header
-        require_once 'src/head_bp.php' 
-    ?>
-    <title>Michael Treanor</title>
     
-</head>
 
 <body>
-    <script type="text/javascript" src="/js/jquery-3-2-1.min.js"></script>
-    <script type="text/javascript" src="/js/index.js"></script>
+    <script async defer type="text/javascript" src="/js/index.js"></script>
     <section class="galaxy-wrapper">
         <canvas id="galaxy" width="100%" height="100%"></canvas>
         <section class="main">
@@ -52,12 +46,11 @@
             <br>
             <h2>Development Environment</h2>
         </section>
-        
         <?php
             require_once 'src/linkedin_badge.php';
-            require_once 'src/footer_social.php';
         ?>
-    </section>
-</body>
 
-</html>
+    </section>
+    <?php
+        require_once 'src/footer_social.php';
+    ?>

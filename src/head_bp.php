@@ -6,7 +6,7 @@
  *   for https://www.skeptycal.com (hand coded basic site)
  *
  * This page is intended to have some interesting and intriguing
- * effect to capture the attention of the viewer. In addition,
+ * effects to capture the attention of the viewer. In addition,
  * this page has controls in various cryptic formats to other
  * pages and social media sites.
  *
@@ -15,9 +15,9 @@
  * LICENSE: MIT
  *
  * @category  Creative_Portfolio
- * @package   Project
+ * @package   Header_Bp.php
  * @author    Michael Treanor  <skeptycal@gmail.com>
- * @copyright 2018 © Michael Treanorr
+ * @copyright 2018 © Michael Treanor
  * @license   MIT <https://opensource.org/licenses/MIT>
  * @version   GIT: 1.1.0
  * @link      http://www.skeptycal.com/index.php
@@ -25,35 +25,50 @@
  */
 ?>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name=”viewport” content=”width=device-width, initial-scale=1″ />
+
+<link rel=”canonical” href=”https://www.example.com” />
+<base href="http://www.skeptycal.com/" target="_self" />
+<meta name="description" content="Michael Treanor is a creative software developer focused on data science, python, php, and scripting." />
+
+
+<meta property="og:title" content="Michael Treanor" />
+<meta name="og:description" property="og:description" content="Michael Treanor is a creative software developer working in Texas." />
+<meta property="og:url" content="http://www.skeptycal.com" />
+<meta property="og:image:secure_url" content="https://en.gravatar.com/userimage/20578593/68f0ec70ffec7aba965e4da3d1ac272e.png" />
+<meta property="og:image:alt" content="Profile Picture for Michael Treanor" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@skeptycal" />
+<meta name="twitter:title" content="Michael Treanor" />
+<meta name="twitter:description" content="Michael Treanor is a creative software developer focused on data science, python, php, and scripting." />
+
+
 <meta name="p:domain_verify" content="7477b2a3c6b14b5096c72826c74650fd" />
 <meta name="p:domain_verify" content="3e117c74ae0a44e0c334ccc9dfa25b65" />
 <!-- fetch likely portfolio pages -->
 <link rel="dns-prefetch" href="/">
 
-<!-- Fira Code : beautiful `code` font -->
-<link rel="stylesheet prefetch"
+<link async defer rel="stylesheet prefetch"
     href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">
 
-<!-- Muli : elegant minimalist font -->
-<link rel="stylesheet prefetch" 
+<link async defer rel="stylesheet prefetch" 
     href="https://fonts.googleapis.com/css?family=Muli:200,900">
 
-<!-- Normalize.css
-    A modern, HTML5-ready alternative to CSS resets
-        Normalize.css makes browsers render all elements more consistently 
-        and in line with modern standards. It precisely targets only the 
-        styles that need normalizing.
-
-        Local: <link rel="stylesheet" href="/css/normalize-8-0.css">
--->
+<link async defer rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
 <link rel="stylesheet" 
-    href="/css/index.css">
-<script type="text/javascript"
-    src="https://platform.linkedin.com/badges/js/profile.js" 
-    async defer>
+    href="/css/index.css" />
+<script async defer type="text/javascript"
+    src="https://platform.linkedin.com/badges/js/profile.js" />
 </script>
+<script async defer type="text/javascript" src="/js/jquery-3-2-1.min.js"></script>
 
 <!--        
     current image:
@@ -73,7 +88,7 @@
 -->
 
 <!-- Hotjar Tracking Code for www.skeptycal.com -->
-<script>
+<script async defer>
     (function(h, o, t, j, a, r) {
         h.hj = h.hj || function() {
             (h.hj.q = h.hj.q || []).push(arguments)
@@ -90,3 +105,19 @@
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
 </script>
 <!-- Hotjar Tracking Code for www.skeptycal.com -->
+
+<?php // title tag section
+/*
+Optimal length for the title tag: 
+    Google typically shows 55-64 characters (keep it under 60).
+*/
+
+if ($title = "") {
+    $title = "Michael Treanor is a creative software developer focused on data science, python, php, and scripting.";
+}
+
+// Output title htmls
+echo "<title>$title</title>";
+echo "</head>";
+
+?>

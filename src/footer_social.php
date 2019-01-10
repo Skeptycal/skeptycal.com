@@ -15,7 +15,7 @@
  * LICENSE: MIT
  *
  * @category  Creative_Portfolio
- * @package   Project
+ * @package   Footer_Socialphp
  * @author    Michael Treanor  <skeptycal@gmail.com>
  * @copyright 2018 © Michael Treanor
  * @license   MIT <https://opensource.org/licenses/MIT>
@@ -52,3 +52,5 @@
             height="50" alt="Github" /></a>
     </div>
 </section>
+</body>
+</html>
