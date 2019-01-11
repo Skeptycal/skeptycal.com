@@ -20,7 +20,7 @@
  * @copyright 2018 © Michael Treanor
  * @license   MIT <https://opensource.org/licenses/MIT>
  * @version   GIT: 1.1.0
- * @link      http://www.skeptycal.com/index.php
+ * @link      https://www.skeptycal.com/index.php
  * PHP 7.3.0 (cli) (built: Dec  7 2018 11:00:11)
  *
  * @tags
@@ -42,13 +42,10 @@ $_SESSION['user_info'] = [
     'status' => 'active'
 ];
 
-
 // <unset> to remove a value from session
-
 // unset($_SESSION['user_info']['first_name']);
 
 // destroying complete session
-
 // session_destroy();
 
 ?>
@@ -61,15 +58,24 @@ $_SESSION['user_info'] = [
 
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name=”viewport” content=”width=device-width, initial-scale=1″ />
+    <link async defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.css" />
+    <link rel="stylesheet" href="/css/index.css" />
 
-    <link rel=”canonical” href=”https://www.example.com” />
-    <base href="http://www.skeptycal.com/" target="_self" />
+    <script async defer type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" />
+    </script>
+    <script async defer type = "text/javascript" src = "/js/hotjar.js"></script>
+    <script async defer type="text/javascript" src="/js/jquery-3-2-1.min.js"></script>
+
+    <link async defer rel="stylesheet prefetch" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">
+    <link async defer rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Muli:200,900">
+
+    <base href="https://www.skeptycal.com/" target="_self" />
     <meta name="description" content="Michael Treanor is a creative software developer focused on data science, python, php, and scripting." />
 
 
     <meta property="og:title" content="Michael Treanor" />
     <meta name="og:description" property="og:description" content="Michael Treanor is a creative software developer working in Texas." />
-    <meta property="og:url" content="http://www.skeptycal.com" />
+    <meta property="og:url" content="https://www.skeptycal.com" />
     <meta property="og:image:secure_url" content="https://en.gravatar.com/userimage/20578593/68f0ec70ffec7aba965e4da3d1ac272e.png" />
     <meta property="og:image:alt" content="Profile Picture for Michael Treanor" />
 
@@ -78,27 +84,15 @@ $_SESSION['user_info'] = [
     <meta name="twitter:title" content="Michael Treanor" />
     <meta name="twitter:description" content="Michael Treanor is a creative software developer focused on data science, python, php, and scripting." />
 
-
-    <meta name="p:domain_verify" content="7477b2a3c6b14b5096c72826c74650fd" />
-    <meta name="p:domain_verify" content="3e117c74ae0a44e0c334ccc9dfa25b65" />
     <!-- fetch likely portfolio pages -->
     <link rel="dns-prefetch" href="/">
-
-    <link async defer rel="stylesheet prefetch" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">
-    <link async defer rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Muli:200,900">
-
 <?php
     // normalize replaced with https://github.com/sindresorhus/modern-normalize
     // "All credit should go to normalize.css. I just removed some cruft and added some improvements. If you have questions about the source, check out the original source <https://github.com/necolas/normalize.css/blame/master/normalize.css> and this <https://github.com/necolas/normalize.css#extended-details-and-known-issues> for details."
     //<link async defer rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
 ?>
 
-    <link async defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.css" />
-
-    <link rel="stylesheet" href="/css/index.css" />
-    <script async defer type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" />
-    </script>
-    <script async defer type="text/javascript" src="/js/jquery-3-2-1.min.js"></script>
+    
 
 <?php    
 //     current image:
@@ -117,24 +111,6 @@ $_SESSION['user_info'] = [
 //     <a href="https://github.com/saracope">Sara Cope</a>.
 ?>
 
-    <!-- Hotjar Tracking Code for www.skeptycal.com -->
-    <script async defer>
-        (function(h, o, t, j, a, r) {
-            h.hj = h.hj || function() {
-                (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {
-                hjid: 1139467,
-                hjsv: 6
-            };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
-    <!-- Hotjar Tracking Code for www.skeptycal.com -->
 
 <?php 
 

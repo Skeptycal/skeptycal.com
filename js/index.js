@@ -1,17 +1,17 @@
 var WIDTH, HEIGHT, canvas, con, g;
 var pxs = [];
 var rint = 50;
-$(document).ready(function() {
-    var windowSize = function() {
+$(document).ready(function () {
+    var windowSize = function () {
         WIDTH = $('.galaxy-wrapper').innerWidth();
         HEIGHT = $('.galaxy-wrapper').innerHeight();
         canvas = $('#galaxy');
         canvas.attr('width', WIDTH).attr('height', HEIGHT);
     };
-  
+
     windowSize();
-  
-    $(window).resize(function() {
+
+    $(window).resize(function () {
         windowSize();
     });
 
@@ -48,7 +48,7 @@ function Circle() {
         random: true,
         blink: true
     };
-    this.reset = function() {
+    this.reset = function () {
         this.x = (this.s.random ? WIDTH * Math.random() : this.s.xdef);
         this.y = (this.s.random ? HEIGHT * Math.random() : this.s.ydef);
         this.r = ((this.s.rmax - 1) * Math.random()) + 1;
@@ -61,10 +61,10 @@ function Circle() {
         this.s.xdrift *= Math.random() * (Math.random() < 0.5 ? -1 : 1);
         this.s.ydrift *= Math.random() * (Math.random() < 0.5 ? -1 : 1);
     };
-    this.fade = function() {
+    this.fade = function () {
         this.rt += this.s.rt;
     };
-    this.draw = function() {
+    this.draw = function () {
         if (this.s.blink && (this.rt <= 0 || this.rt >= this.hl)) this.s.rt = this.s.rt * -1;
         else if (this.rt >= this.hl) this.reset();
         var newo = 1 - (this.rt / this.hl);
@@ -79,16 +79,16 @@ function Circle() {
         con.fillStyle = g;
         con.fill();
     };
-    this.move = function() {
+    this.move = function () {
         this.x += (this.rt / this.hl) * this.dx;
         this.y += (this.rt / this.hl) * this.dy;
         if (this.x > WIDTH || this.x < 0) this.dx *= -1;
         if (this.y > HEIGHT || this.y < 0) this.dy *= -1;
     };
-    this.getX = function() {
+    this.getX = function () {
         return this.x;
     };
-    this.getY = function() {
+    this.getY = function () {
         return this.y;
     };
 };
