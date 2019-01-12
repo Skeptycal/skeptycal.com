@@ -27,13 +27,12 @@
  * @phpcs:disable Generid.Files.LineLength.LineLimit = "120"
  */
 
-// starting a session
+// ### starting a session
 session_start();
 
 // Creating a session
-// Use of session_register() is deprecated
-// session_register("username");
-// Use of $_SESSION is preferred
+// *** Use of session_register() is deprecated
+// *** Use of $_SESSION is preferred
 
 $_SESSION['user_info'] = [
     'user_id' => 1,
@@ -42,10 +41,10 @@ $_SESSION['user_info'] = [
     'status' => 'active'
 ];
 
-// <unset> to remove a value from session
+// *** <unset> to remove a value from session
 // unset($_SESSION['user_info']['first_name']);
 
-// destroying complete session
+// *** destroying complete session
 // session_destroy();
 
 ?>
@@ -61,10 +60,11 @@ $_SESSION['user_info'] = [
     <link async defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.css" />
     <link rel="stylesheet" href="/css/index.css" />
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <script async defer type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" />
     </script>
-    <script async defer type = "text/javascript" src = "/js/hotjar.js"></script>
-    <script async defer type="text/javascript" src="/js/jquery-3-2-1.min.js"></script>
+    <script async defer type="text/javascript" src="/js/hotjar.js"></script>
 
     <link async defer rel="stylesheet prefetch" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">
     <link async defer rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Muli:200,900">
@@ -86,36 +86,10 @@ $_SESSION['user_info'] = [
 
     <!-- fetch likely portfolio pages -->
     <link rel="dns-prefetch" href="/">
-<?php
-    // normalize replaced with https://github.com/sindresorhus/modern-normalize
-    // "All credit should go to normalize.css. I just removed some cruft and added some improvements. If you have questions about the source, check out the original source <https://github.com/necolas/normalize.css/blame/master/normalize.css> and this <https://github.com/necolas/normalize.css#extended-details-and-known-issues> for details."
-    //<link async defer rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
-?>
-
-    
-
-<?php    
-//     current image:
-//     https://www.nasa.gov/sites/default/files/images/672309main_M107_full.jpg 
-//     Courtesy of NASA.
-    
-//     secondary image: An infrared image showing fledgling stars located in 
-//     the Orion Nebula. Created: 29 February 2012. 
-//     <a href="https://www.nasa.gov/multimedia/imagegallery/image_feature_2195.html">
-//     Image credit: NASA</a>
-                
-//     Icons and other resources by Rawpixel.com and Ydlabs, among others. 
-//     <a href="https://www.freepik.com/free-photos-vectors/background">Freepik.com</a>
-
-//     Artistic site design inspiration by 
-//     <a href="https://github.com/saracope">Sara Cope</a>.
-?>
-
 
 <?php 
 
-// title tag section
-// Optimal length for the title tag: 
+// *** Optimal length for the title tag: 
 // Google typically shows 55-64 characters (keep it under 60). 
 
 if ($title = "") {
@@ -125,4 +99,32 @@ if ($title = "") {
 // Output title in html code
 echo "<title>$title</title>";
 echo "</head>";
+?>
+
+<?php
+    /* normalize.js replaced with modern-normalize.js : 
+        https://github.com/sindresorhus/modern-normalize
+       "All credit should go to normalize.css. I just removed some cruft and 
+       added some improvements. If you have questions about the source, 
+       check out the original source 
+       <https://github.com/necolas/normalize.css/blame/master/normalize.css> 
+       and this 
+       <https://github.com/necolas/normalize.
+       css#extended-details-and-known-issues> for details."
+    */
+
+    /*  Background Images
+        current image:
+    
+        https://www.nasa.gov/sites/default/files/images/672309main_M107_full.jpg , Courtesy of NASA.
+    
+        secondary image: An infrared image showing fledgling stars located in the Orion Nebula. Created: 29 February 2012.
+        https://www.nasa.gov/multimedia/imagegallery/image_feature_2195.html , Image credit: NASA
+                
+        Icons and other resources by Rawpixel.com and Ydlabs, among others.
+        href="https://www.freepik.com/free-photos-vectors/background"
+
+        Artistic site design inspiration by 
+        <a href="https://github.com/saracope">Sara Cope</a>.
+    */
 ?>
