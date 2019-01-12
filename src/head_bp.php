@@ -27,6 +27,9 @@
  * @phpcs:disable Generid.Files.LineLength.LineLimit = "120"
  */
 
+// strict typing on ...
+declare(strict_types=1);
+
 // ### starting a session
 session_start();
 
