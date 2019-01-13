@@ -1,14 +1,10 @@
 <?php 
 /**
- * Header_Bp.php
+ * Header_Simple.php
  * 
- * Header file 
- *   for https://www.skeptycal.com (hand coded basic site)
- *
- * This page is intended to have some interesting and intriguing
- * effects to capture the attention of the viewer. In addition,
- * this page has controls in various cryptic formats to other
- * pages and social media sites.
+ * Include Header for basic site 
+ *   excludes fireflies.js, background photo, and large social icons
+ *   for https://www.skeptycal.com 
  *
  * PHP version 7
  *
@@ -29,7 +25,7 @@
 
 // ########################################################
 require_once 'session_setup.php';
-require_once 'http_header_css.php';
+require_once 'http_header_css_basic.php';
 require_once 'http_header_seo.php';
 
 /*

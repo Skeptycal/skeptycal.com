@@ -18,7 +18,7 @@
  * @author    Michael Treanor  <skeptycal@gmail.com>
  * @copyright 2018 © Michael Treanor
  * @license   MIT <https://opensource.org/licenses/MIT>
- * @version   GIT: 1.1.0
+ * @version   GIT: 2.20.1
  * @link      http://www.skeptycal.com/index.php
  * PHP 7.3.0 (cli) (built: Dec  7 2018 11:00:11)
  */
@@ -32,10 +32,9 @@
 // Add standard header
 require_once 'src/head_bp.php';
 ?>
-    
 
 <body>
-    <script async defer type="text/javascript" src="/js/index.js"></script>
+    <script async defer type="text/javascript" src="../js/index.js"></script>
     <section class="galaxy-wrapper">
         <canvas id="galaxy" width="100%" height="100%"></canvas>
         <section class="main">
