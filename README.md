@@ -1,4 +1,5 @@
-[![firacode cdn badge](https://data.jsdelivr.com/v1/package/npm/firacode/badge)](https://www.jsdelivr.com/package/npm/firacode)
+<script id="godaddy-security-s" src="https://cdn.sucuri.net/badge/badge.js" data-s="2031"
+    data-i="885636824926c117c2023521b436f3c6e17d7116e4" data-p="r" data-c="d" data-t="g"></script>
 
 # [skeptycal.com](http://www.skeptycal.com)
 
