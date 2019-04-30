@@ -1,5 +1,7 @@
 # project version 0.0.1
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/416b8ca3-82db-470f-9adf-a6d06264ca75/deploy-status)](https://app.netlify.com/sites/mystifying-keller-ab5658/deploys)
+
 ---
 
 ## portfolio project for macOS
@@ -97,7 +99,6 @@ repos:
 #     args: [--level=PSR2]
 
 ```
-
 
 ---
 
