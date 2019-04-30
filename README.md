@@ -1,5 +1,6 @@
-
 # [skeptycal.com](http://www.skeptycal.com)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/416b8ca3-82db-470f-9adf-a6d06264ca75/deploy-status)](https://app.netlify.com/sites/mystifying-keller-ab5658/deploys)
 
 **_This is an example of web programming done without frameworks or automated tools._**
 
@@ -25,7 +26,7 @@ The pages herein are highly influenced by other members of the coding community.
 - Icons: [Mark Thomes](https://codepen.io/WithAnEs/pen/fFlnL)
 - Font: [Google](https://fonts.google.com/specimen/Muli?selection.family=Muli:200,300,900)
 - Star effect: [Peter Do](https://codepen.io/mrtuanphong/details/PqKxXd#forks)
-- CSS  [Normalize](https://necolas.github.io/normalize.css/)
+- CSS [Normalize](https://necolas.github.io/normalize.css/)
 - [Jquery](https://jquery.com/)
 - [Autoprefixer](https://autoprefixer.github.io/)
 - Viewport units: [Web Design Weekly](https://web-design-weekly.com/2014/11/18/viewport-units-vw-vh-vmin-vmax/)
@@ -33,17 +34,17 @@ The pages herein are highly influenced by other members of the coding community.
 
 ## Tools
 
-I was lucky and priviledged enough to get my MacBook from an education grant through a generous donation by Visine, Inc. 
+I was lucky and priviledged enough to get my MacBook from an education grant through a generous donation by Visine, Inc.
 
 Teachers get little recognition and few rewards. I am tremendously thankful to have been recognized as a leader in Educational Technology.
 
 [ Macbook Pro](https://support.apple.com/kb/SP719?locale=en_US) 15-inch, mid 2015, Retina, MagSafe 2, 16gig ram, SSD, Core i7 - I love it
 
 - Development Server - brew LAMP (PHP 7) with [MariaDB](https://mariadb.org/) and [mongoDB](https://www.mongodb.com/)
-- Daily Driver - Anaconda Python 3.7, 
+- Daily Driver - Anaconda Python 3.7,
 - IDE - Microsoft's [VSCode](https://code.visualstudio.com/)
 - Theme - Sarah Drasner's [Night Owl](https://github.com/sdras/night-owl-vscode-theme)
-- Monospaced font with programming ligatures   -  [Fira Code](https://github.com/tonsky/FiraCode)
+- Monospaced font with programming ligatures - [Fira Code](https://github.com/tonsky/FiraCode)
 - Markdown Editor - VSCode extension by [David Anson](https://github.com/DavidAnson/markdownlint)
 - Awesome Keep-alive app! [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12)
 
