@@ -1,36 +1,36 @@
 {
-  "name": "skeptycal.com",
-  "version": "1.1.0",
-  "description": "Personal Portfolio (hand-coded)",
-  "main": "index.php",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Skeptycal/skeptycal.com.git"
-  },
-  "keywords": [
-    "php",
-    "js",
-    "css",
-    "developer",
-    "data",
-    "science",
-    "portfolio"
-  ],
-  "author": "Michael Treanor",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Skeptycal/skeptycal.com/issues"
-  },
-  "homepage": "https://github.com/Skeptycal/skeptycal.com#readme",
-  "devDependencies": {
-    "eslint": "^5.12.0",
-    "eslint-config-google": "^0.11.0"
-  },
-  "dependencies": {
-    "jquery": "^3.4.0",
-    "normalize.css": "^8.0.1"
-  }
+    "name": "skeptycal.com",
+    "version": "1.1.0",
+    "description": "Personal Portfolio (hand-coded)",
+    "main": "index.php",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Skeptycal/skeptycal.com.git"
+    },
+    "keywords": [
+        "php",
+        "js",
+        "css",
+        "developer",
+        "data",
+        "science",
+        "portfolio"
+    ],
+    "author": "Michael Treanor",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Skeptycal/skeptycal.com/issues"
+    },
+    "homepage": "https://github.com/Skeptycal/skeptycal.com#readme",
+    "devDependencies": {
+        "eslint": "^6.0.0",
+        "eslint-config-google": "^0.13.0"
+    },
+    "dependencies": {
+        "jquery": "^3.4.1",
+        "normalize.css": "^8.0.1"
+    }
 }

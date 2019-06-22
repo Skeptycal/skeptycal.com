@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
- * File index.php - 
- * 
- * Landing page for portfolio site 
+ * File index.php -
+ *
+ * Landing page for portfolio site
  *
  * This page is intended to have some interesting and intriguing
  * effect to capture the attention of the viewer. In addition,
@@ -23,12 +23,12 @@
  * PHP 7.3.0 (cli) (built: Dec  7 2018 11:00:11)
  */
 
- // Grab requests as needed ... 
- // use Zend\Http\Request;
+// Grab requests as needed ...
+// use Zend\Http\Request;
 
 // Set title variable if desired. (default is in header)
 // $title = "";
- 
+
 // Add standard header
 require_once 'src/head_bp.php';
 ?>
@@ -46,10 +46,9 @@ require_once 'src/head_bp.php';
             <h2>Development Environment</h2>
         </section>
         <?php
-            require_once 'src/linkedin_badge.php';
+        require_once 'src/linkedin_badge.php';
         ?>
 
     </section>
     <?php
-        require_once 'src/footer_social.php';
-    ?>
+    require_once 'src/footer_social.php';
