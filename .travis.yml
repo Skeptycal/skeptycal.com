@@ -1,13 +1,12 @@
-# Travis CI scripts (python, php)
-# Python script (other languages are at the end.)
+# Travis CI scripts (python)
+# Python script
 language: python
 python:
-  - "2.7"
-  - "3.5"
-  - "3.6"
+  #   - "2.7"
+  - "3.7"
 
   # PyPy versions
-  - "pypy3.5"
+#   - "pypy3.5"
 # Django Stuff:
 # env:
 #   - DJANGO_VERSION=1.10.8
