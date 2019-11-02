@@ -1,4 +1,4 @@
-## Usage: prettier [options][file/glob ...]
+# Usage: prettier [options][file/glob ...]
 
 > By default, output is written to stdout.
 > Stdin is read if it is piped to Prettier and no files are given.
