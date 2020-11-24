@@ -1,49 +1,50 @@
-## skeptycal.com version 0.4.0 
+# Skeptycal.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/416b8ca3-82db-470f-9adf-a6d06264ca75/deploy-status)](https://app.netlify.com/sites/mystifying-keller-ab5658/deploys) 
+>Tricky and fun portfolio project.
+
+---
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/skeptycal/skeptycal.com/Go) ![Codecov](https://img.shields.io/codecov/c/github/skeptycal/skeptycal.com)
+ [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
+
+![Twitter Follow](https://img.shields.io/twitter/follow/skeptycal.svg?label=%40skeptycal&style=social) ![GitHub followers](https://img.shields.io/github/followers/skeptycal.svg?style=social)
 
 ---
 
-## portfolio project for macOS 
 
-skeptycal.com : portfolio project for macOS (version 0.4.0)
+### Project Resources
 
-author - Michael Treanor <skeptycal@gmail.com>
+Developed with Go 1.15.5 darwin/amd64 (macOS Big Sur)
+Home cooked frontend so far ... it's small
+Tested on Go 1.13+
 
-copyright - 2019 (c) Michael Treanor
+---
 
-license - MIT <https://opensource.org/licenses/MIT>
+## Code of Conduct and Contributing
 
-github - https://www.github.com/skeptycal
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us. Please read the [Code of Conduct](CODE_OF_CONDUCT.md) for details before submitting anything.
 
-Usage: skeptycal.com {init|reset|version|help}
+---
 
-```bash
-.
-├── bak
-├── .gitignore
-├── .info.cfg
-├── .pre-commit-config.yaml
-├── .pre-commit-template.yaml
-├── .travis.yml
-├── 404.shtml
-├── LICENSE
-├── Pipfile
-├── Pipfile.lock
-├── README.md
-├── blog_stuff.html
-├── codecov.yml
-├── composer.json
-├── composer.lock
-├── index.php
-├── package-lock.json
-├── package.json
-├── prettier_options.md
-├── requirements.txt
-├── robots.txt
-└── tree.html
+## Versioning
 
- 1 directory, 21 files
-```
+We use SemVer for versioning. For the versions available, see the tags on this repository.
 
-Last update: 08-15-2019 | 21:52:58 
+---
+
+## Contributors
+- Michael Treanor ([GitHub][github] / [Twitter][twitter]) - Initial work, updates, maintainer
+- [Francesc Campoy][Campoy] - Inspiration and great YouTube videos!
+
+See also the list of contributors who participated in this project.
+
+---
+
+## License
+
+Licensed under the MIT <https://opensource.org/licenses/MIT> - see the [LICENSE](LICENSE) file for details.
+
+
+[twitter]: (https://www.twitter.com/skeptycal)
+[github]: (https://github.com/skeptycal)
+[Campoy]: (https://github.com/campoy)
+[fatih]: (https://github.com/fatih/color)
