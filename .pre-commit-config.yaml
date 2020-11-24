@@ -101,11 +101,11 @@ repos:
           - id: vet
           - id: fix
 
-    - repo: git://github.com/markdownlint/markdownlint
-      rev: master
-      hooks:
-          - id: markdownlint
-          - id: markdownlint_docker
+    # - repo: git://github.com/markdownlint/markdownlint
+    #   rev: master
+    #   hooks:
+    #       - id: markdownlint
+    #   - id: markdownlint_docker
 
     # Hashes some fields; adds signature
     - repo: git://github.com/mattlqx/pre-commit-sign

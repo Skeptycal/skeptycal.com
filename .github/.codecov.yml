@@ -1,0 +1,21 @@
+codecov:
+    require_ci_to_pass: yes
+    token: secret:jLEgJZpqtc4/D4cBW4+KGmzxORGbK3i7AJEqpkYAHc76FR0Sb8Wt+CRIq+sOVOcPgCdfHY68G2mx8WMptSDDC1VMMqZza9oHVsgasFOpZ0Y= # pragma: allowlist secret
+
+coverage:
+    precision: 2
+    round: down
+    range: "70...100"
+
+parsers:
+    gcov:
+        branch_detection:
+            conditional: yes
+            loop: yes
+            method: no
+            macro: no
+
+comment:
+    layout: "reach,diff,flags,files,footer"
+    behavior: default
+    require_changes: no
